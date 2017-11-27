@@ -12,25 +12,22 @@ div.content
 {
   margin: 20px;
 }
-div.content h1 { text-align: right; }
 div.mainBox 
 {
 	border: solid 2px #197bab;
 	padding: 3em 0 0 0;
 	margin: 0 auto 0 auto;
 }
-div.mainBox h2 {
+div.mainBox h1 {
 	color: White;
 	background-color:#197bab;
 	background: url(images/gradient_news.gif);
-	font-size: 11pt;
-	font-weight: bold;
+	font-size: 18pt;
 	text-align: Left;
-	border: solid 2px #a6aeb3;
-	padding: 2px 2px 2px 1em;
-	margin: 0 1em 0 1em;
+	padding: 2px 2px 2px 0.5em;
+	margin: 0 1em 0.5em 1em;
 }
-div.mainBox h2 a {
+div.mainBox h1 a {
   text-decoration:none;
   color:White; 
 }
@@ -54,7 +51,7 @@ div.topnav {
 /* Style the links inside the navigation bar */
 div.topnav a {
     float: left;
-    color: #f2f2f2;
+    color: White;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,8 +61,8 @@ div.topnav a {
 
 /* Change the color of links on hover */
 div.topnav a:hover {
-	background-color:#FFA500;
-    color: black;
+	background-color:#AB4918;
+    color: White;
 }
 
 /* Add a color to the active/current link */
@@ -73,22 +70,21 @@ div.topnav a.active {
     background-color: #6FAEE0;
     color: black;
 }
-img#logo 
-{
-  margin: 1em 0 1em 0;
+a.getitnow {
+  background-color:#37C11B;
+  color: White;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: center;
+
 }
-a.langSwitch {
-  margin: 2em 1em 2em 1em;
-  background-color:White;
-  border: solid 2px #197bab;
-}
-a.langSwitch:visited
+a.getitnow:visited
 {
-  color : #197bab;
+  color : White;
 }
-a.langSwitch:hover 
+a.getitnow:hover 
 {
-  background-color:#197bab;
+  background-color:#AB4918;
   color:White;
 }
 div.error
