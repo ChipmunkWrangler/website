@@ -46,8 +46,12 @@ div.text TH
 div.topnav {
     background-color: #197bab;
     overflow: hidden;
+    border: solid 2px #197bab;
 }
-
+div.screenshots {
+	float:right;
+	padding: 0 1.8em 0 1.8em;
+}
 /* Style the links inside the navigation bar */
 div.topnav a {
     float: left;
@@ -61,31 +65,17 @@ div.topnav a {
 
 /* Change the color of links on hover */
 div.topnav a:hover {
-	background-color:#AB4918;
-    color: White;
+	background-color:White;
+    color: #197bab;
 }
 
 /* Add a color to the active/current link */
 div.topnav a.active {
-    background-color: #6FAEE0;
-    color: black;
+    background-color: #5CB9E7;
+    color: Black;
 }
-a.getitnow {
-  background-color:#37C11B;
-  color: White;
-  padding: 14px 16px;
-  text-decoration: none;
-  float: center;
-
-}
-a.getitnow:visited
-{
-  color : White;
-}
-a.getitnow:hover 
-{
-  background-color:#AB4918;
-  color:White;
+img.downloadbutton {
+	padding: 2em;
 }
 div.error
 {
