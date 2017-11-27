@@ -1,0 +1,115 @@
+BODY {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	background-color: White;
+	color: Black;
+}
+a:link  { color : #197bab; }
+a:active { color : #FFA500; }
+a:visited { color: #a6aeb3; }
+/*img.hdr { float:right; }*/
+div.content
+{
+  margin: 21px 22px 0 245px;
+}
+div.content h1 { text-align: right; }
+div.mainBox 
+{
+	border: solid 2px #197bab;
+	padding: 3em 0 0 0;
+	margin: 0 auto 0 auto;
+}
+div.mainBox h2 {
+	color: White;
+	background-color:#197bab;
+	background: url(images/gradient_news.gif);
+	font-size: 11pt;
+	font-weight: bold;
+	text-align: Left;
+	border: solid 2px #a6aeb3;
+	padding: 2px 2px 2px 1em;
+	margin: 0 1em 0 1em;
+}
+div.mainBox h2 a {
+  text-decoration:none;
+  color:White; 
+}
+div.text
+{
+	text-align: Left;
+	margin: 0 1em 0 1em;
+	padding: 1em 0.8em 3em 0.8em;
+}
+div.text TH 
+{
+	 text-align: left;
+	 font-weight: normal;
+	 padding: 0 1em 0 0;
+}
+div#navbar
+{
+  left:0;
+  top:0;
+	position: absolute;
+	/*height:100%; this leads to colour problems if the browser window is too short for the navbar */
+	background-color: #FFA500;
+	padding: 0em 1em 1em 1em;
+}
+img#logo 
+{
+  margin: 1em 0 1em 0;
+}
+div#navBorder
+{
+	border: solid 2px #197bab; /* this fails in opera 7 for some reason */
+	margin-bottom: 2em;
+}
+div#navBtns
+{
+  padding: 1em 0 1em 0;
+	border: solid 1em #efdfb7;
+}
+div#navBtns a
+{
+  font-weight:bold;
+  text-decoration: none;
+  text-align:center;
+  display: block;
+}
+a.navBtn
+{
+  margin: 0.5em 0em 0.75em 0em;
+  border: solid 2px #efdfb7; /* so that the a:hover border doesn't shift the button's position */
+  background-color: #efdfb7;
+  padding: 0.1em 0 0.05em 0;
+}
+a.navBtn:visited
+{
+  color : #197bab;
+}
+a.navBtn:hover
+{
+  background-color:White;
+  border: solid 2px #197bab;
+}
+a.langSwitch {
+  margin: 2em 1em 2em 1em;
+  background-color:White;
+  border: solid 2px #197bab;
+}
+a.langSwitch:visited
+{
+  color : #197bab;
+}
+a.langSwitch:hover 
+{
+  background-color:#197bab;
+  color:White;
+}
+div.error
+{
+  color: red;
+  font-weight: bold;
+}
+/*a.noul  { text-decoration: none;}*/
+

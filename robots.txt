@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /braingame/
+Disallow: /cgi-bin/
+Disallow: /downloads/
+Disallow: /images/
+Disallow: /logs/
+Disallow: /mail/
+Disallow: /rafael/
+Disallow: /usage/
+Disallow: /games/
+
