@@ -50,7 +50,11 @@ div.topnav a.active {
     background-color: #318497;
     color: black;
 }
-img.downloadbutton {
+img.appleDownloadbutton {
+	padding: 4%;
+	width: 35.5%;
+}
+img.googleDownloadbutton {
 	padding: 4%;
 	width: 40%;
 }
@@ -61,10 +65,10 @@ div.error
 }
 img.banner {
 	max-width: 512px;
-	padding: 4%em 0em 0em 0em;	
+	padding: 10px 0em 0em 0em;	
 	width: 100%;
-	display: block; /*for the img inside your div */  
+/*	display: block; for the img inside your div   
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;*/
 }
 
