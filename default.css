@@ -1,13 +1,15 @@
 BODY {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-size: 16pt;
 	background-color: White;
 	color: Black;
 }
 a:link  { color : #197bab; }
 a:active { color : #FFA500; }
 a:visited { color: #a6aeb3; }
-/*img.hdr { float:right; }*/
+h2 {
+	text-align: center;
+}
 div.content
 {
   margin: 20px;
@@ -17,12 +19,15 @@ div.mainBox
 	border: solid 2px #197bab;
 	padding: 3em 0 0 0;
 	margin: 0 auto 0 auto;
+	/*max-width: 512px;*/
+	float:left;
 }
 div.mainBox h1 {
 	color: White;
 	background-color:#197bab;
 	background: url(images/gradient_news.gif);
-	font-size: 18pt;
+	background-repeat: repeat-x;
+	font-size: 24pt;
 	text-align: Left;
 	padding: 2px 2px 2px 0.5em;
 	margin: 0 1em 0.5em 1em;
@@ -30,6 +35,11 @@ div.mainBox h1 {
 div.mainBox h1 a {
   text-decoration:none;
   color:White; 
+}
+div.mainBox::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 div.text
 {
@@ -50,7 +60,7 @@ div.topnav {
 }
 div.screenshots {
 	float:right;
-	padding: 0 1.8em 0 1.8em;
+	padding: 1.5em 1.8em 1.5em 1.8em;
 }
 /* Style the links inside the navigation bar */
 div.topnav a {
@@ -75,12 +85,20 @@ div.topnav a.active {
     color: Black;
 }
 img.downloadbutton {
-	padding: 2em;
+	padding: 4%;
+	width: 40%;
 }
 div.error
 {
   color: red;
   font-weight: bold;
 }
-/*a.noul  { text-decoration: none;}*/
+img.banner {
+	max-width: 512px;
+	padding: 2em 0em 0em 0em;	
+	width: 100%;
+	display: block; /*for the img inside your div */  
+	margin-left: auto;
+	margin-right: auto;
+}
 
