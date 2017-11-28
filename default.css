@@ -20,7 +20,6 @@ div.mainBox h1 {
 div.text
 {
 	text-align: Left;
-	/*margin: 0 1em 0 1em;*/
 	margin: 2px 2px 2px 20px;
 	color: #4FB0C6;
 }
@@ -28,7 +27,7 @@ div.topnav {
     overflow: hidden;
     border: solid #1E515D;
     border-width: 0px 0px 0px 2px;
-    margin: 0 1em 0.5em 1em;
+    margin: 20px;
 }
 div.topnav a {
     float: left;
