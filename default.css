@@ -51,24 +51,32 @@ div.topnav a.active {
     color: black;
 }
 img.appleDownloadbutton {
-	padding: 4%;
-	width: 35.5%;
+	padding: 0 3% 20px 3%;
+	width: 40%;
+	max-width: 251px;
+	/*float: left;*/
 }
 img.googleDownloadbutton {
-	padding: 4%;
-	width: 40%;
+	padding: 0 3% 20px 3%;
+	width: 45%;
+	max-width: 283px;
+	/*float: left;*/
 }
 div.error
 {
   color: red;
   font-weight: bold;
 }
+div.disclaimer {
+	padding: 20px 0 20px 0;
+	font-size: 12pt;
+}
 img.banner {
-	max-width: 512px;
+	max-width: 640px;
 	padding: 10px 0em 0em 0em;	
 	width: 100%;
-/*	display: block; for the img inside your div   
+	display: block; /*for the img inside your div   */
 	margin-left: auto;
-	margin-right: auto;*/
+	margin-right: auto;
 }
 
