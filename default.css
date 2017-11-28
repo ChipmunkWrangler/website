@@ -4,19 +4,13 @@ BODY {
 	background-color: White;
 	color: Black;
 }
-a:link  { color : #197bab; }
-a:active { color : #FFA500; }
-a:visited { color: #a6aeb3; }
-h2 {
-	text-align: center;
-}
 div.content
 {
   margin: 20px;
 }
 div.mainBox 
 {
-	border: solid 2px #197bab;
+	border: solid 2px #1E515D;
 	padding: 3em 0 0 0;
 	margin: 0 auto 0 auto;
 	/*max-width: 512px;*/
@@ -24,17 +18,11 @@ div.mainBox
 }
 div.mainBox h1 {
 	color: White;
-	background-color:#197bab;
-	background: url(images/gradient_news.gif);
-	background-repeat: repeat-x;
-	font-size: 24pt;
+	background-color:#1E515D;
+	font-size: 32pt;
 	text-align: Left;
 	padding: 2px 2px 2px 0.5em;
 	margin: 0 1em 0.5em 1em;
-}
-div.mainBox h1 a {
-  text-decoration:none;
-  color:White; 
 }
 div.mainBox::after {
     content: "";
@@ -54,9 +42,9 @@ div.text TH
 	 padding: 0 1em 0 0;
 }
 div.topnav {
-    background-color: #197bab;
+    background-color: #1E515D;
     overflow: hidden;
-    border: solid 2px #197bab;
+    border: solid 2px #1E515D;
 }
 div.screenshots {
 	float:right;
@@ -76,12 +64,12 @@ div.topnav a {
 /* Change the color of links on hover */
 div.topnav a:hover {
 	background-color:White;
-    color: #197bab;
+    color: #1E515D;
 }
 
 /* Add a color to the active/current link */
 div.topnav a.active {
-    background-color: #5CB9E7;
+    background-color: #4FB0C6;
     color: Black;
 }
 img.downloadbutton {
@@ -95,7 +83,7 @@ div.error
 }
 img.banner {
 	max-width: 512px;
-	padding: 2em 0em 0em 0em;	
+	padding: 4%em 0em 0em 0em;	
 	width: 100%;
 	display: block; /*for the img inside your div */  
 	margin-left: auto;
