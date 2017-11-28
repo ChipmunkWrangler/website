@@ -2,6 +2,7 @@ BODY {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16pt;
 	background-color: Black;
+	color: #4FB0C6;
 }
 div.content
 {
@@ -16,12 +17,12 @@ div.mainBox h1 {
 	font-size: 32pt;
 	text-align: Left;
 	padding: 2px 2px 2px 18px;
+	color: black;
 }
 div.text
 {
 	text-align: Left;
 	margin: 2px 2px 2px 20px;
-	color: #4FB0C6;
 }
 div.topnav {
     overflow: hidden;
@@ -60,6 +61,7 @@ img.googleDownloadbutton {
 	padding: 0 3% 20px 3%;
 	width: 45%;
 	max-width: 283px;
+	float: right;
 	/*float: left;*/
 }
 div.error
@@ -67,7 +69,7 @@ div.error
   color: red;
   font-weight: bold;
 }
-div.disclaimer {
+.disclaimer {
 	padding: 20px 0 20px 0;
 	font-size: 12pt;
 }
