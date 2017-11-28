@@ -4,8 +4,7 @@ BODY {
 	background-color: Black;
 	color: #4FB0C6;
 }
-s
-div.footer {
+.footer {
 	font-size: 12pt;
 }
 div.content
@@ -55,13 +54,13 @@ div.topnav a.active {
     background-color: #318497;
     color: black;
 }
-img.appleDownloadbutton {
+img.appledownloadbutton {
 	padding: 0 3% 20px 3%;
 	width: 40%;
 	max-width: 251px;
 	/*float: left;*/
 }
-img.googleDownloadbutton {
+img.googledownloadbutton {
 	padding: 0 3% 20px 3%;
 	width: 45%;
 	max-width: 283px;
