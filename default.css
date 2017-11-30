@@ -4,6 +4,9 @@ BODY {
 	background-color: Black;
 	color: #4FB0C6;
 }
+a:link  { color : #AFDBE5; }
+a:active { color : #D5ECF1; }
+a:visited { color: #318497; }
 .footer {
 	font-size: 12pt;
 }
